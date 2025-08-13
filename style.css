@@ -1,0 +1,67 @@
+body {
+  background-color: #5e3f1b;
+  color: #f8f1e9;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+  color: #ff69b4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #894040;
+  text-decoration: underline;
+}
+
+.text-pink {
+  color: #ff69b4 !important;
+}
+
+.bg-dark {
+  background-color: #3b2a1a !important;
+}
+
+.btn-pink {
+  background-color: #b10b5e;
+  border: none;
+  color: rgb(234, 243, 202);
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #ff85c1;
+}
+
+.card {
+  background-color: #e2cbbf;
+  border-radius: 1rem;
+  border: none;
+  color: #3b2a1a;
+}
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+
+/* testing for cards on project page */
+#projects a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+#projects a:hover {
+  background-color: #e0e0e0;
+}
